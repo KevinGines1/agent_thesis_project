@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "AGENT: Automated Exercise Guidance for Exercise & Therapy",
+    "slug": "agent-app",
+    "description": "This is an application that provides users the ability to check on their own exercise form through their phone. The application uses machine learning for analyzing exercise videos.",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/agent-logo.png",
+    "splash": {
+      "image": "./assets/agent-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ]
+  }
+}
